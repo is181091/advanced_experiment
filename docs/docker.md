@@ -31,7 +31,7 @@
 - ユーザーを作成する。
 
 
-## Mac
+## Mac（Catalina）
 ### 準備
 - Dockerのアカウントを作成し、Docker Hubにアクセスする。
   - https://hub.docker.com/
@@ -85,5 +85,29 @@
   $ docker stop ubuntu
   ```    
 
-## Windows
+## Windows（10）
+### 準備
+- Dockerのアカウントを作成し、Docker Hubにアクセスする。
+  - https://hub.docker.com/
+- Docker Desktop for Windowsをインストールする。
+  - https://docs.docker.com/get-docker/
+- Docker.appを起動し、IDとPasswordを入力する。
+- ターミナルでDockerが実行できることを確認する。
+  ```
+  $ docker version
+  ```
+- Ubuntu 18.04のイメージをダウンロードする。
+  ```
+  $ docker pull ubuntu:18.04
+  ```
+- イメージが存在するかを確認する。
+  ```
+  $ docker images
+  ```
+
+### 起動
+
+### 停止
+
+
 
