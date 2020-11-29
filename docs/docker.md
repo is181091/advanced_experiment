@@ -92,7 +92,7 @@
 - Docker Desktop for Windowsをインストールする。
   - https://docs.docker.com/get-docker/
 - Docker.appを起動し、IDとPasswordを入力する。
-- ターミナルでDockerが実行できることを確認する。
+- コマンドプロンプトでDockerが実行できることを確認する。
   ```
   $ docker version
   ```
@@ -106,6 +106,8 @@
   ```
 
 ### 起動
+
+docker run -it ubuntu bash
 
 ### 停止
 
