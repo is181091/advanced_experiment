@@ -34,6 +34,7 @@
 
 ## ノードを用いたトピック通信
 ### 1つ目
+- roscoreを起動する。
   ```
   $ cd ~/catkin_ws
   $ catkin_make
@@ -41,12 +42,14 @@
   $ roscore
   ```
 ### 2つ目
+- listenerを起動する。
   ```
   $ cd ~/catkin_ws
   $ source devel/setup.bash
   $ rosrun advanced_experiment listener 
   ```
 ### 3つ目
+- talkerを起動する。
   ```
   $ cd ~/catkin_ws
   $ source devel/setup.bash
