@@ -18,6 +18,9 @@ catkin_package()
 
 include_directories(${catkin_INCLUDE_DIRS})
 
+add_executable(talker src/talker.cpp)
+target_link_libraries(talker ${catkin_LIBRARIES})
+
 add_executable(image_acquisition src/image_acquisition.cpp)
 target_link_libraries(image_acquisition ${catkin_LIBRARIES})
 
