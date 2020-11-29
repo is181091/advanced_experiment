@@ -56,9 +56,10 @@
   ~/catkin_ws/devel
   ```
 
-試しに演習に必要となるROSパッケージをインストールする。  
-```
-$ sudo apt install ros-melodic-usb-cam
-$ sudo apt install ros-melodic-cv-camera
-$ sudo apt install ros-melodic-opencv-apps
-```
+## パッケージの追加
+- ROSパッケージを追加する。
+  ```
+  $ sudo apt install ros-melodic-usb-cam
+  $ sudo apt install ros-melodic-cv-camera
+  $ sudo apt install ros-melodic-opencv-apps
+  ```
