@@ -1,20 +1,35 @@
 # Docker
 ## Ubuntu
-###
+### 準備
 - Dockerをインストールする。
   ```
   % sudo apt update
   % sudo apt install docker
   ```
-- 一般ユーザーでもdockerコマンドを使用できるようにする。
-  ```
-  $ sudo usermod -aG docker ユーザー名
-  ```
-- 一旦ログアウトし、再度ログインする。
 - dockerが実行できることを確認する。
   ```
   $ docker version
   ```
+- Ubuntu 18.04のイメージをダウンロードする。
+  ```
+  $ docker pull ubuntu:18.04
+  ```
+- イメージが存在するかを確認する。
+  ```
+  $ docker images
+  ```
+
+### 起動
+- コンテナーを立ち上げる。
+  ```
+  $ docker run -itd <image id> /bin/bash
+  ```
+- コンテナーに入る。
+  ```
+  $ docker exec -it temp_ubuntu1804 /bin/bash
+  ```
+- ユーザーを作成する。
+
 
 ## Mac
 ### 準備
@@ -32,7 +47,9 @@
   $ docker pull ubuntu:18.04
   ```
 - イメージが存在するかを確認する。
- $ docker images
+  ```
+  $ docker images
+  ```
 
 ### 起動
 - コンテナーを立ち上げる。オプションnameでコンテナーに対して名前を付ける。例えば「ubuntu」と名付ける。
