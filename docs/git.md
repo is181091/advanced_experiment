@@ -20,4 +20,24 @@
   $ git config --global user.email "takuo.suzuki@ist.aichi-pu.ac.jp"
   ```
 
-## 
+## 使い方
+- ROSでは、プログラムをワークスペースのソースに置くので、ディレクトリーを移動する。
+  ```
+  $ cd ~/catkin_ws/src
+  ```
+- cloneコマンドでプログラムをコピーする。
+  ```
+  $ git clone https://github.com/stl-apu/advanced_experiment.git
+  ```
+- lsコマンドでadvanced_experimentがあるを確認する。
+  ```
+  $ ls
+  ```
+- ディレクトリーadvanced_experimentに移動する。
+  ```
+  $ cd advanced_experiment
+  ```
+- ブランチの一覧を確認する。
+  ```
+  $ git branch
+  ```
