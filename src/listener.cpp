@@ -10,9 +10,9 @@ int main(int argc, char **argv)
 {
   ros::init(argc, argv, "listener");
 
-  ros::NodeHandle n;
+  ros::NodeHandle nh;
 
-  ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
+  ros::Subscriber sub = nh.subscribe("chatter", 1000, chatterCallback);
 
   ros::spin();
 
