@@ -14,16 +14,14 @@
   $ source ~/.bashrc
   $ sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
   ```
-  - lsb_releaseコマンドをインストールする必要があるかも？
+  - lsb_releaseコマンドをインストールする必要があるかも？コマンド名はアンダースコア、パッケージ名はハイフンなので注意する。
     ```
     $ sudo apt install lsb-release
     ```
-    - コマンド名はアンダースコア、パッケージ名はハイフンなので注意する。
-  - gnupgコマンドをインストールする必要があるかも？
+  - gnupgコマンドをインストールする必要があるかも？GNU Privacy Guardの略。
     ```
     $ sudo apt install gnupg
     ```
-    - GNU Privacy Guard
   - rosdepコマンドをインストールする必要があるかも？
     ```
     $ sudo apt install python-rosdep
