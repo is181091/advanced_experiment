@@ -106,8 +106,18 @@
   ```
 
 ### 起動
-
-docker run -it ubuntu bash
+- コンテナーを立ち上げる。
+  ```
+  $ docker run --name ubuntu -it ubuntu:18.04 /bin/bash 
+  ```
+- コンテナーを抜けるときはexitコマンドを使用する。
+  ```
+  $ exit
+  ```
+- コンテナーの一覧を確認する。
+  ```
+  $ docker ps -a
+  ```
 
 ### 停止
 
