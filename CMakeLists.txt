@@ -1,11 +1,14 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(stl_ros_sample)
+project(advanced_experiment)
 
 add_definitions(-std=c++11)
 
 find_package(catkin REQUIRED COMPONENTS
 	roscpp
+	rospy
+	std_msgs
+	genmsg
 	sensor_msgs
 	geometry_msgs
 	opencv_apps
