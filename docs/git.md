@@ -41,3 +41,20 @@
   ```
   $ git branch
   ```
+- ブランチ「develop」に移動する。
+  ```
+  $ git checkout develop
+  ```
+- 自分用のブランチを作成する。
+  ```
+  《記法》
+  $ git branch develop/名_性
+  ```
+  ```
+  《実例》
+  $ git branch develop/takuo_suzuki
+  ```
+ - 自分用のブランチを移動する。
+  ```
+  $ git branch develop/名_性
+  ```
