@@ -58,4 +58,30 @@
   ```
   $ git branch feature/名_性
   ```
-- 
+- test.txtを編集し、保存する。
+  ```
+  $ vim test.txt
+  ```
+- 編集内容をcommitの対象にする。
+  ```
+  $ git add -A
+  ```
+- commitする。
+  ```
+  《記法》
+  $ git commit -m "コミット文"
+  ```
+  ```
+  《実例》
+  $ git commit -m "Change test.txt"
+  ```
+- pushする。
+  ```
+  $ git push origin feature/名_性
+  ```
+- 上位のブランチから編集内容を取り込む。
+  ```
+  $ git checkout develop
+  $ git merge feature/名_性
+  ```
+- 複数人が同時に同じファイルを編集すると衝突（conflict）が発生する。
