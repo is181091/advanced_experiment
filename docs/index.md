@@ -8,5 +8,6 @@
 
 ## Week 1
 - [Docker](https://stl-apu.github.io/advanced_experiment/docker)
-- [Basics](https://stl-apu.github.io/advanced_experiment/basics)
+- [ROS環境構築](https://stl-apu.github.io/advanced_experiment/installation)
+- [ROSトピック](https://stl-apu.github.io/advanced_experiment/basics)
 - [Git](https://stl-apu.github.io/advanced_experiment/git)
