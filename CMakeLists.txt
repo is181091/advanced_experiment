@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(advanced_experiment)
+project(stl_ros_sample)
 
 add_definitions(-std=c++11)
 
