@@ -33,6 +33,11 @@
   $ docker exec -it コンテナー名 /bin/bash
   ```
 
+### 停止
+- コンテナーを抜ける。
+  ```
+  $ exit
+  ```
 
 ## Mac（Catalina）
 ### 準備
@@ -99,9 +104,9 @@
   ```
 
 ### 起動
-- コンテナーを立ち上げる。
+- コンテナーを立ち上げる。コンテナー名は「ubuntu」などと名付ける。
   ```
-  $ docker run --name ubuntu -it ubuntu:18.04 /bin/bash 
+  $ docker run -it --name コンテナー名 ubuntu:18.04 /bin/bash 
   ```
 - コンテナーを抜けるときはexitコマンドを使用する。
   ```
