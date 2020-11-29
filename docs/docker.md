@@ -64,16 +64,6 @@
   ```
   $ docker exec -it ubuntu /bin/bash
   ```
-- ユーザーを作成する。
-  ```
-  $ adduser ユーザー名
-  $ gpasswd -a user_name sudo
-  $ su - ユーザー名
-  ```
-  - sudoコマンドをインストールする必要がある？
-    ```
-    $ apt install sudo
-    ```
 
 ### 停止
 - コンテナーを抜ける。
@@ -122,4 +112,14 @@
 ### 停止
 
 
-
+## 共通
+- ユーザーを作成する。
+  ```
+  $ adduser ユーザー名
+  $ gpasswd -a user_name sudo
+  $ su - ユーザー名
+  ```
+  - sudoコマンドをインストールする必要がある？
+    ```
+    $ apt install sudo
+    ```
