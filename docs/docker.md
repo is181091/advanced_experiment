@@ -3,12 +3,12 @@
 ###
 - Dockerをインストールする。
   ```
-  $ curl -fsSL https://get.docker.com -o get-docker.sh
-  $ sh get-docker.sh
+  % sudo apt update
+  % sudo apt install docker
   ```
 - 一般ユーザーでもdockerコマンドを使用できるようにする。
   ```
-  $ sudo usermod -aG docker <ユーザー名>
+  $ sudo usermod -aG docker ユーザー名
   ```
 - 一旦ログアウトし、再度ログインする。
 - dockerが実行できることを確認する。
