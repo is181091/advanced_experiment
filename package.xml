@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>stl_ros_sample</name>
+  <name>advanced_experiment</name>
   <version>0.0.0</version>
-  <description>Package for IST seminar</description>
+  <description>Package for Advanced Experiment, IST, APU< Japan</description>
 
   <maintainer email="takuo.suzuki@ist.aichi-pu.ac.jp">SUZUKI Takuo</maintainer>
 
@@ -20,3 +20,4 @@
 
   <export></export>
 </package>
+
