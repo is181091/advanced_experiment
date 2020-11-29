@@ -22,13 +22,16 @@
 ### 起動
 - コンテナーを立ち上げる。
   ```
-  $ docker run -itd <image id> /bin/bash
+  $ docker run -itd --name コンテナー名 ubuntu:18.04 /bin/bash
+  ```
+- コンテナーが存在するかを確認する。
+  ```
+  $ docker ps
   ```
 - コンテナーに入る。
   ```
-  $ docker exec -it temp_ubuntu1804 /bin/bash
+  $ docker exec -it コンテナー名 /bin/bash
   ```
-- ユーザーを作成する。
 
 
 ## Mac（Catalina）
