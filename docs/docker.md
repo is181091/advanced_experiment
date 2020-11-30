@@ -121,14 +121,15 @@
 
 
 ## 共通
-- ユーザーを作成する。
+- 必要に応じて、sudoコマンドをインストールする。
+  ```
+  $ su（※rootでないとき）
+  $ apt update
+  $ apt install sudo
+  ```
+- ユーザーを作成する。ユーザー名は「suzuki」などとする。
   ```
   $ adduser ユーザー名
-  $ gpasswd -a user_name sudo
+  $ gpasswd -a ユーザー名 sudo
   $ su - ユーザー名
   ```
-  - sudoコマンドをインストールする必要がある？
-    ```
-    $ apt update
-    $ apt install sudo
-    ```
