@@ -129,5 +129,6 @@
   ```
   - sudoコマンドをインストールする必要がある？
     ```
+    $ apt update
     $ apt install sudo
     ```
