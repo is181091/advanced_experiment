@@ -85,6 +85,7 @@
 
 ## Windows（10）
 ### 準備
+- Homeエディションの人はHyper-Vを使用できないので、Educationなどにアップグレードしてください。
 - Dockerのアカウントを作成し、Docker Hubにアクセスする。
   - https://hub.docker.com/
 - Docker Desktop for Windowsをインストールする。
