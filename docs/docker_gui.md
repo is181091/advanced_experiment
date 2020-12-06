@@ -1,4 +1,7 @@
 # Docker（GUI編）
+- DockerはCUIの利用を想定している。
+- X Window System（X11）を用いてホストOS上でGUIを表示できる。
+
 ## Ubuntu
 ### 権限
 - dockerグループにユーザーを追加する。
