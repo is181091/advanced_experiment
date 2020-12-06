@@ -3,7 +3,7 @@
 - X Window System（X11）を用いてホストOS上でGUIを表示できる。
 
 ## Ubuntu
-### 権限
+### 準備
 - dockerグループにユーザーを追加する。
   ```
   $ sudo gpasswd -a $USER docker
@@ -20,12 +20,12 @@
   ```
   $ sudo reboot
   ```
-
-### X11
 - 接続が許可されているホストにLOCALがあることを確認する。
   ```
   $ xhost
   ```
+
+## 実行
 - イメージをダウンロードする。
   ```
   $ docker pull ros:melodic-robot-bionic
@@ -40,15 +40,25 @@
   ```
 
 ## Mac
+### 準備
 - XQuartzをインストールする。
   - https://www.xquartz.org/
 - XQuartzを起動し、［環境設定］→［セキュリティ］から「ネットワーク・クライアントからの接続を許可」にチェックを入れる。
 - コンピューターを再起動する。
 - XQuartzを起動する。
+
+### 実行
+- イメージをダウンロードする。
+  ```
+  $ docker pull ros:melodic-robot-bionic
+  ```
 - コンテナーを作成する。
   ```
-  $ docker run -it -d -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -itd -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
-
+- コンテナーに入る。
+  ```
+  $ docker exec -it ros bash
+  ```
 ## Windows
 
