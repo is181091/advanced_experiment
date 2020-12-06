@@ -40,6 +40,9 @@
   ```
 
 ## Mac
+- XQuartzをインストールする。
+  - https://www.xquartz.org/
+
 
 ## Windows
 
