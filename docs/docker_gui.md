@@ -22,9 +22,17 @@
   ```
 
 ### X11
+- イメージをダウンロードする。
+  ```
+  $ docker pull ros:melodic-robot-bionic
+  ```
 - コンテナーを作成する。
   ```
   $ docker run -itd --env="DISPLAY" --env="QT_X11_NO_MITSHM=1" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --name ros ros:melodic-robot-bionic
+  ```
+- コンテナーに入る。
+  ```
+  $ docker exec -it ros bash
   ```
 
 ## Mac
