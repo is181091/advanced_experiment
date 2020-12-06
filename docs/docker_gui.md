@@ -47,7 +47,7 @@
 - XQuartzを起動する。
 - コンテナーを作成する。
   ```
-  docker run -it -d -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -it -d -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
 
 ## Windows
