@@ -67,6 +67,7 @@
   - https://itcweb.cc.affrc.go.jp/affrit/documents/guide/x-window/x-win-xming
 - Xmingを起動し、設定を変更する。
   - Public Domain ReleasesのXming 6.9.0.31を選択する。
+- Xmingのインストール先（Program Files/Xming）のX0.hostsファイルで、X Windowの転送を許可するサーバ（X Windowを転送するサーバ）のIPアドレスを記入する。デフォルトでは「localhost」だけ記載されているので、サーバのIPアドレスを追記する。
 - PCを再起動する。
 
 ## 実行
