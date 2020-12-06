@@ -54,9 +54,9 @@
   《実例》
   $ git branch feature/takuo_suzuki
   ```
-- 自分用のブランチを移動する。
+- 自分用のブランチに移動する。
   ```
-  $ git branch feature/名_性
+  $ git checkout feature/名_性
   ```
 - test.txtを編集し、保存する。
   ```
