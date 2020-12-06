@@ -79,7 +79,7 @@
   《実例》
   $ git commit -m "Change test.txt"
   ```
-- pushする。
+- pushする。恐らくSSHの設定が済んでいないとpushできない。→来週
   ```
   $ git push origin feature/名_性
   ```
