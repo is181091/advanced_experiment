@@ -88,7 +88,7 @@
   ```
   $ docker exec -it ros bash
   ```
-- 
+- 環境変数を設定する。
   ```
   $ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0
   ```
