@@ -80,15 +80,15 @@
   ```
   $ docker pull ros:melodic-robot-bionic
   ```
+- ホストOSのIPアドレスを確認する。
+  ```
+  $ ipconfig
+  ```
 - コンテナーを作成する。
   ```
-  $ docker run -itd -e DISPLAY=$(hostname):0.0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -it -e DISPLAY=x.x.x.x:0.0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
 - コンテナーに入る。
   ```
   $ docker exec -it ros bash
-  ```
-- 環境変数を設定する。
-  ```
-  $ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0
   ```
