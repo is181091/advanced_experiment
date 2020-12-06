@@ -1,4 +1,6 @@
 # Docker
+- Dockerを起動する。
+
 ## Ubuntu
 ### 準備
 - Dockerをインストールする。
@@ -22,7 +24,7 @@
 ### 起動
 - コンテナーを作成する。
   ```
-  $ docker run -itd --name コンテナー名 ubuntu:18.04 bash
+  $ docker run -itd --name ubuntu ubuntu:18.04 bash
   ```
 - コンテナーが存在することを確認する。
   ```
@@ -30,7 +32,7 @@
   ```
 - コンテナーに入る。
   ```
-  $ docker exec -it コンテナー名 bash
+  $ docker exec -it ubuntu bash
   ```
 
 ### 停止
@@ -41,6 +43,12 @@
 - コンテナーを停止する。
   ```
   $ docker stop ubuntu
+  ```
+
+### 再起動
+- コンテナーを再起動する。
+  ```
+  $ docker start ubuntu
   ```
 
 ## Mac（Catalina）
