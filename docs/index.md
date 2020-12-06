@@ -12,6 +12,7 @@
 - [ROSトピック](https://stl-apu.github.io/advanced_experiment/basics)
 
 ## Week 2
+- [Docker（GUI編）](https://stl-apu.github.io/advanced_experiment/docker_gui)
 - [Git](https://stl-apu.github.io/advanced_experiment/git)
 - ROSパッケージ
 - ROSツール
