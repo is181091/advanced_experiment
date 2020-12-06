@@ -3,8 +3,8 @@
 ### 準備
 - Dockerをインストールする。
   ```
-  % sudo apt update
-  % sudo apt install docker
+  $ sudo apt update
+  $ sudo apt -y install docker.io
   ```
 - dockerが実行できることを確認する。
   ```
