@@ -62,18 +62,22 @@
   ```
 
 ## Windows
+### 準備
 - Xmingをインストールする。
   - https://itcweb.cc.affrc.go.jp/affrit/documents/guide/x-window/x-win-xming
+- Xmingを起動し、設定を変更する。
   - Public Domain ReleasesのXming 6.9.0.31を選択する。
-- Xmingを起動する。
+- PCを再起動する。
 
+## 実行
+- Xmingを起動する。
 - イメージをダウンロードする。
   ```
   $ docker pull ros:melodic-robot-bionic
   ```
 - コンテナーを作成する。
   ```
-  $ docker run -itd -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -itd -e DISPLAY=$(hostname):0.0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
 - コンテナーに入る。
   ```
@@ -81,5 +85,5 @@
   ```
 - 
   ```
-  $ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+  $ export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0.0
   ```
