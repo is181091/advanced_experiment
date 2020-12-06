@@ -6,7 +6,7 @@
   $ sudo apt update
   $ sudo apt -y install docker.io
   ```
-- dockerが実行できることを確認する。
+- Dockerが実行できることを確認する。
   ```
   $ docker version
   ```
@@ -14,29 +14,33 @@
   ```
   $ docker pull ubuntu:18.04
   ```
-- イメージが存在するかを確認する。
+- イメージが存在することを確認する。
   ```
   $ docker images
   ```
 
 ### 起動
-- コンテナーを立ち上げる。
+- コンテナーを作成する。
   ```
-  $ docker run -itd --name コンテナー名 ubuntu:18.04 /bin/bash
+  $ docker run -itd --name コンテナー名 ubuntu:18.04 bash
   ```
-- コンテナーが存在するかを確認する。
+- コンテナーが存在することを確認する。
   ```
-  $ docker ps
+  $ docker ps -a
   ```
 - コンテナーに入る。
   ```
-  $ docker exec -it コンテナー名 /bin/bash
+  $ docker exec -it コンテナー名 bash
   ```
 
 ### 停止
 - コンテナーを抜ける。
   ```
   $ exit
+  ```
+- コンテナーを停止する。
+  ```
+  $ docker stop ubuntu
   ```
 
 ## Mac（Catalina）
@@ -78,7 +82,7 @@
   ```
   $ exit
   ```
-- コンテナーを止める。
+- コンテナーを停止する。
   ```
   $ docker stop ubuntu
   ```    
