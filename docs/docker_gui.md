@@ -22,6 +22,10 @@
   ```
 
 ### X11
+- 接続が許可されているホストにLOCALがあることを確認する。
+  ```
+  $ xhost
+  ```
 - イメージをダウンロードする。
   ```
   $ docker pull ros:melodic-robot-bionic
