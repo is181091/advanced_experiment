@@ -8,8 +8,7 @@
   ```
 - シミュレーション実験用のROSパッケージをインストールする。
   ```
-  $ sudo apt update
-  $ sudo apt -y install ros-$(rosversion -d)-turtlesim
+  $ sudo apt update && sudo apt -y install ros-$(rosversion -d)-turtlesim
   ```
 
 ## 実行
