@@ -1,8 +1,12 @@
 # Git
 ## 準備
+- vimをインストールする。
+  ```
+  $ sudo apt -y install vim
+  ```
 - gitをインストールする。
   ```
-  $ sudo apt install git
+  $ sudo apt -y install git
   ```
 - gitがインストールされたことを確認する。
   ```
