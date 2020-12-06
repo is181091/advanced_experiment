@@ -42,7 +42,13 @@
 ## Mac
 - XQuartzをインストールする。
   - https://www.xquartz.org/
-
+- XQuartzを起動し、［環境設定］→［セキュリティ］から「ネットワーク・クライアントからの接続を許可」にチェックを入れる。
+- コンピューターを再起動する。
+- XQuartzを起動する。
+- コンテナーを作成する。
+  ```
+  docker run -it -d -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  ```
 
 ## Windows
 
