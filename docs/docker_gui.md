@@ -1,6 +1,7 @@
 # Docker（GUI編）
 - DockerはCUIの利用を想定している。
 - X Window System（X11）を用いてホストOS上でGUIを表示できる。
+- Dockerを起動した状態（Dockerコマンドが使用できる状態）で下記の作業を行う。
 
 ## Ubuntu
 ### 準備
