@@ -65,7 +65,7 @@
 ## Windows
 ### 準備
 - Xmingをインストールする。
-  - https://itcweb.cc.affrc.go.jp/affrit/documents/guide/x-window/x-win-xming
+  - http://www.straightrunning.com/XmingNotes/
 - Xmingを起動し、設定を変更する。
   - Public Domain ReleasesのXming 6.9.0.31を選択する。
 - コンテナーのIPアドレスを確認する。
