@@ -19,5 +19,5 @@
 
 ## Week 3
 - Git（SSH設定）
-- ROSツール
+- ROSツール（roslaunch）
 - ROS実機
