@@ -85,9 +85,9 @@
   ```
   $ ipconfig
   ```
-- コンテナーを作成する。
+- ホストOSのIPアドレスを指定しつつ、コンテナーを作成する。
   ```
-  $ docker run -it -e DISPLAY=x.x.x.x:0.0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -it -e DISPLAY=IPアドレス:0.0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
 - コンテナーに入る。
   ```
