@@ -95,6 +95,12 @@
   $ docker stop ubuntu
   ```    
 
+### 再起動
+- コンテナーを再起動する。
+  ```
+  $ docker start ubuntu
+  ```
+
 ## Windows（10）
 ### 準備
 - 「タスクマネージャー」を起動し、［パフォーマンス］→［CPU］から「仮想化：有効」となっていることを確認する。
@@ -138,6 +144,12 @@
   $ docker stop コンテナーID
   または
   $ docker stop コンテナー名
+  ```
+
+### 再起動
+- コンテナーを再起動する。
+  ```
+  $ docker start ubuntu
   ```
 
 ## 共通
