@@ -18,6 +18,6 @@
 
 
 ## Week 3
-- Git
+- Git（SSH設定）
 - ROSツール
 - ROS実機
