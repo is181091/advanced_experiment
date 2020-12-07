@@ -137,6 +137,10 @@
   ```
   $ docker ps -a
   ```
+- コンテナーに入る。
+  ```
+  $ docker exec -it ubuntu bash
+  ```
 
 ### 停止
 - stopコマンドを使用する。
