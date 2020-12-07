@@ -72,7 +72,7 @@
   ```
   $ hostname -i
   ```
-- Xmingのインストール先（Program Files/Xming）のX0.hostsファイルで、X Windowの転送を許可するサーバ（X Windowを転送するサーバ）のIPアドレスを記入する。
+- Xmingのインストール先（/Program Files/Xming）のX0.hostsファイルで、X Windowの転送を許可するサーバ（X Windowを転送するサーバ）のIPアドレスを記入する。
 - PCを再起動する。
 
 ## 実行
