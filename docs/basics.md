@@ -33,7 +33,7 @@
    ```
 
 ## ノードを用いたトピック通信
-- 応用実験用のROSパッケージ「advanced_experiment」をクローンしたあとに実行する。
+- 応用実験用のROSパッケージ「advanced_experiment」をクローンしたあとに実行する。ページ「Git」を先に行ってください。
 - catkin_makeコマンドを用いてビルドする。
   ```
   $ cd ~/catkin_ws
