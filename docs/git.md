@@ -1,5 +1,6 @@
 # Git
 ## 準備
+コンテナーに入り、必要な設定を行う。
 - vimをインストールする。
   ```
   $ sudo apt -y install vim
