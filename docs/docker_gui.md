@@ -1,6 +1,6 @@
 # Docker（GUI編）
 - DockerはCUIの利用を想定している。
-- X Window System（X11）を用いてホストOS上でGUIを表示できる。
+- X Window System（X11）を用いてホストOS上でGUIを表示できる。ホストOSに表示を依頼する（＝X11 Forwarding）。
 - Dockerを起動した状態（Dockerコマンドが使用できる状態）で下記の作業を行う。
 
 ## Ubuntu
@@ -55,7 +55,7 @@
   ```
 - コンテナーを作成する。
   ```
-  $ docker run -itd -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
+  $ docker run -it -e DISPLAY=$(hostname):0 -v ~/.Xauthority:/root/.Xauthority --name ros ros:melodic-robot-bionic
   ```
 - コンテナーに入る。
   ```
