@@ -28,7 +28,7 @@ Gitを使用して、応用実験で使用するプログラムをダウンロ�
   ```
 
 ## 使い方
--「ROSの環境構築」の「ビルド」の作業を行い、catkin_wsなどが作成済みである状態で始めてください。
+「ROSの環境構築」の「ビルド」の作業を行い、catkin_wsなどのディレクトリーが作成済みである状態で始めてください。
 - ROSでは、プログラムをワークスペースのソースに置くので、ディレクトリーを移動する。
   ```
   $ cd ~/catkin_ws/src
@@ -37,7 +37,7 @@ Gitを使用して、応用実験で使用するプログラムをダウンロ�
   ```
   $ git clone https://github.com/stl-apu/advanced_experiment.git
   ```
-- lsコマンドでadvanced_experimentがあるを確認する。
+- lsコマンドでadvanced_experimentがあることを確認する。
   ```
   $ ls
   ```
@@ -45,7 +45,7 @@ Gitを使用して、応用実験で使用するプログラムをダウンロ�
   ```
   $ cd advanced_experiment
   ```
-- ブランチの一覧を確認する。
+- ブランチの一覧を確認してみる。
   ```
   $ git branch
   ```
@@ -87,9 +87,9 @@ Gitを使用して、応用実験で使用するプログラムをダウンロ�
   ```
   $ git push origin feature/名_性
   ```
-- 上位のブランチから編集内容を取り込む。
+- 上位のブランチに移動し、編集内容を取り込む。
   ```
   $ git checkout develop
   $ git merge feature/名_性
   ```
-- 複数人が同時に同じファイルを編集すると衝突（conflict）が発生する。
+- 複数人が同時に同じファイルを編集すると、衝突（conflict）が発生する。
